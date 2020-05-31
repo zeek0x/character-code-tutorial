@@ -38,7 +38,7 @@ def main():
 
         for i in range(0, len(array), LINE_LEN):
             line = line_number(i)
-            line += ''.join(array[i:i+LINE_LEN])
+            line += ' '.join(array[i:i+LINE_LEN])
             print(line)
 
         print(line_number(len(array)))
